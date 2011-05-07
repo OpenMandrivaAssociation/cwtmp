@@ -15,7 +15,7 @@ output, except entries of type LOGIN_PROCESS, INIT_PROCESS, and EMPTY,
 which are skipped.
 
 %prep
-%setup -q -c -n %{name}-%{version}
+%setup -q -c
 
 %build
 %make CFLAGS="%{optflags}" LIBS="%{ldflags}"
