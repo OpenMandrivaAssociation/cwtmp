@@ -18,7 +18,7 @@ which are skipped.
 %setup -q -c -n %{name}-%{version}
 
 %build
-%make
+%make CFLAGS="%{optflags}" LIBS="%{ldflags}"
 
 %install
 install -m755 %{name} -D %{buildroot}%{_sbindir}/%{name}
