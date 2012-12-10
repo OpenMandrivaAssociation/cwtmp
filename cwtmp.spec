@@ -27,3 +27,19 @@ install -m644 %{name}.8 -D %{buildroot}%{_mandir}/man8/%{name}.8
 %files 
 %{_sbindir}/%{name}
 %{_mandir}/man8/%{name}.8*
+
+
+%changelog
+* Sat May 07 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 3.4-1
++ Revision: 671769
+- '-n %%{name}-%%{version}' is default, so ditch it as being redundant
+- build with %%optflags & %%ldflags
+- cleanups
+- imported package cwtmp
+
+
+* Sat May 07 2011 Johnny A. Solbu <solbu@mandriva.org> 3.4.1mdv2010.0
+- Spec cleanup
+
+* Mon Oct 25 2010 Johnny A. Solbu <johnny@solbu.net> 3.4-1mdv
+- Initial RPM release
