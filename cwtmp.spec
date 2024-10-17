@@ -1,7 +1,7 @@
 Name:		cwtmp
 Version:	3.4
 Release:	2
-URL:		http://www.armory.com/~spcecdt/
+URL:		https://www.armory.com/~spcecdt/
 Source0:	ftp://ftp.armory.com/pub/source/%{name}.tar.gz
 License:	GPLv2
 Group:		Text tools
